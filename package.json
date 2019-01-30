@@ -1,7 +1,7 @@
 {
   "name": "iobroker.history",
   "description": "Log state history in a two-stages process (first to RAM, then to disk)",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "author": "hobbyquaker <hq@ccu.io>",
   "contributors": [
     "bluefox <dogafox@gmail.com>",
@@ -27,9 +27,10 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
+    "chai": "^4.1.2",
     "mocha": "^5.2.0",
-    "chai": "^4.1.2"
+    "axios": "^0.18.0"
   },
   "bugs": {
     "url": "https://github.com/ioBroker/ioBroker.history/issues"

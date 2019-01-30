@@ -1,7 +1,7 @@
 {
     "common": {
-        "name":                     "history",
-        "title":                    "History",
+        "name": "history",
+        "title": "History",
         "titleLang": {
             "en": "History",
             "de": "History",
@@ -11,7 +11,8 @@
             "fr": "History",
             "it": "History",
             "es": "History",
-            "pl": "History"
+            "pl": "History",
+            "zh-cn": "历史"
         },
         "desc": {
             "en": "Logging of the state history in files",
@@ -20,10 +21,25 @@
             "pt": "Registro do histórico de estado em arquivos",
             "nl": "Logboekregistratie van de statusgeschiedenis in bestanden",
             "fr": "Consignation de l'historique des états dans les fichiers",
-            "it": "Registrazione della cronologia di stato nei file"
+            "it": "Registrazione della cronologia di stato nei file",
+            "es": "El registro de la historia del estado en los archivos de",
+            "pl": "Rejestrowanie historii państwowej w plikach",
+            "zh-cn": "记录的国家的历史文件"
         },
-        "version": "1.8.5",
+        "version": "1.8.6",
         "news": {
+            "1.8.6": {
+                "en": "Gulp auto translation added",
+                "de": "Gulp auto-übersetzung Hinzugefügt",
+                "ru": "Залпом автоматический перевод добавил",
+                "pt": "Um gole de tradução automática adicionados",
+                "nl": "Gulp automatische vertaling toegevoegd",
+                "fr": "Gulp ajout de la traduction automatique",
+                "it": "Gulp traduzione automatica aggiunto",
+                "es": "Trago de traducción automática añadido",
+                "pl": "Jednym haustem automatyczne tłumaczenie dodał",
+                "zh-cn": "吞自动翻译的增加"
+            },
             "1.8.5": {
                 "en": "error fixed in storeState",
                 "de": "Fehler in storeState behoben",
@@ -33,7 +49,8 @@
                 "fr": "erreur corrigée dans storeState",
                 "it": "errore riparato in storeState",
                 "es": "error corregido en storeState",
-                "pl": "błąd został naprawiony w storeState"
+                "pl": "błąd został naprawiony w storeState",
+                "zh-cn": "错误固定在storeState"
             },
             "1.8.4": {
                 "en": "error fixed for allow to disable writing of start and end values",
@@ -44,7 +61,8 @@
                 "fr": "erreur corrigée pour permettre de désactiver l'écriture des valeurs de début et de fin",
                 "it": "errore risolto per consentire di disabilitare la scrittura dei valori iniziali e finali",
                 "es": "error corregido para permitir deshabilitar la escritura de los valores de inicio y fin",
-                "pl": "błąd został usunięty, aby umożliwić wyłączenie zapisywania wartości początkowej i końcowej"
+                "pl": "błąd został usunięty, aby umożliwić wyłączenie zapisywania wartości początkowej i końcowej",
+                "zh-cn": "错误定为允许禁止写作的开始和结束的价值观"
             },
             "1.8.3": {
                 "en": "Add option to write data to a different ID to make device changes easier. Retrieving data works for both IDs, also allow to disable writing of start and end values",
@@ -55,7 +73,8 @@
                 "fr": "Ajoutez une option pour écrire des données sur un ID différent afin de faciliter les changements de périphérique. La récupération des données pour les deux ID permet également de désactiver l'écriture des valeurs de début et de fin",
                 "it": "Aggiungi l'opzione per scrivere i dati su un ID diverso per facilitare le modifiche ai dispositivi. Il recupero dei dati funziona per entrambi gli ID, inoltre consente di disabilitare la scrittura dei valori iniziali e finali",
                 "es": "Agregue la opción para escribir datos en una ID diferente para facilitar los cambios en el dispositivo. La recuperación de datos funciona para ambos ID, también permite deshabilitar la escritura de los valores de inicio y fin",
-                "pl": "Dodaj opcję zapisywania danych do innego identyfikatora, aby ułatwić zmianę urządzenia. Pobieranie danych działa dla obu identyfikatorów, pozwala również wyłączyć zapisywanie wartości początkowej i końcowej"
+                "pl": "Dodaj opcję zapisywania danych do innego identyfikatora, aby ułatwić zmianę urządzenia. Pobieranie danych działa dla obu identyfikatorów, pozwala również wyłączyć zapisywanie wartości początkowej i końcowej",
+                "zh-cn": "增加选择数据写入到不同的标识，以使设备的变化更加容易。 检索数据的工作为身份证，也允许以禁止写作的开始和结束的价值观"
             },
             "1.7.4": {
                 "en": "Fix filename handling for states with special characters",
@@ -66,7 +85,8 @@
                 "fr": "Correction de la gestion des noms de fichiers pour les états avec des caractères spéciaux",
                 "it": "Correggere la gestione dei nomi dei file per gli stati con caratteri speciali",
                 "es": "Corregir el manejo del nombre de archivo para estados con caracteres especiales",
-                "pl": "Popraw obsługę plików dla stanów ze znakami specjalnymi"
+                "pl": "Popraw obsługę plików dla stanów ze znakami specjalnymi",
+                "zh-cn": "修复文件处理国与特殊字符"
             },
             "1.7.3": {
                 "en": "Respect 'keep forever' setting for retention from datapoint configuration",
@@ -77,7 +97,8 @@
                 "fr": "Respectez le paramètre 'keep forever' pour la rétention à partir de la configuration du point de données",
                 "it": "Rispettare l'impostazione 'keep forever' per la conservazione dalla configurazione del datapoint",
                 "es": "Respetar la configuración 'mantener para siempre' para la retención desde la configuración del punto de datos",
-                "pl": "Szanuj ustawienie \"zachowaj na zawsze\", aby zachować dane z konfiguracji punktu danych"
+                "pl": "Szanuj ustawienie \"zachowaj na zawsze\", aby zachować dane z konfiguracji punktu danych",
+                "zh-cn": "尊重保持永远置于保留从数据点配置"
             },
             "1.7.2": {
                 "en": "Admin3 Fixes",
@@ -88,7 +109,8 @@
                 "fr": "Corrections Admin3",
                 "it": "Correzioni di Admin3",
                 "es": "Correcciones de Admin3",
-                "pl": "Poprawki Admin3"
+                "pl": "Poprawki Admin3",
+                "zh-cn": "Admin3的修正"
             },
             "1.7.1": {
                 "en": "Admin3 Fixes",
@@ -99,7 +121,8 @@
                 "fr": "Corrections Admin3",
                 "it": "Correzioni di Admin3",
                 "es": "Correcciones de Admin3",
-                "pl": "Poprawki Admin3"
+                "pl": "Poprawki Admin3",
+                "zh-cn": "Admin3的修正"
             },
             "1.7.0": {
                 "en": "Ready for Admin3",
@@ -110,7 +133,8 @@
                 "fr": "Prêt pour Admin3",
                 "it": "Pronto per Admin3",
                 "es": "Listo para Admin3",
-                "pl": "Gotowy na Admin3"
+                "pl": "Gotowy na Admin3",
+                "zh-cn": "准备好Admin3"
             },
             "1.6.6": {
                 "en": "Translations",
@@ -119,90 +143,169 @@
                 "pt": "Traduções",
                 "nl": "vertaalwerk",
                 "fr": "Traductions",
-                "it": "Traduzioni"
+                "it": "Traduzioni",
+                "es": "Traducciones",
+                "pl": "Tłumaczenie",
+                "zh-cn": "翻译"
             },
             "1.6.5": {
                 "en": "fix relog value feature",
                 "de": "Erneutes Logging korrigiert",
-                "ru": "fix relog value feature"
+                "ru": "fix relog value feature",
+                "pt": "correcção relog valor do recurso",
+                "nl": "fix relog waarde functie",
+                "fr": "fix relog valeur caractéristique",
+                "it": "fix relog valore",
+                "es": "revisión relog valor de la característica",
+                "pl": "poprawka funkcji приувеличиваю wartość ",
+                "zh-cn": "修复重新记录的价值的特征"
             },
             "1.6.4": {
                 "en": "add \"save last value\" option",
                 "de": "Die Option um vorheriges Wert zu speichern ist hinzugefügt",
-                "ru": "Возможность сохранять предыдущее значение при сохранении только изменений"
+                "ru": "Возможность сохранять предыдущее значение при сохранении только изменений",
+                "pt": "adicionar \"salvar último valor\" opção",
+                "nl": "toevoegen \"save laatste waarde\" optie",
+                "fr": "ajouter \"enregistrer la dernière valeur\" option",
+                "it": "aggiungi \"per salvare l'ultimo valore\" opzione",
+                "es": "añadir \"guardar último valor\" opción",
+                "pl": "dodaj \"zapisz ostatnia wartość\" ",
+                "zh-cn": "添加\"保存最后一个值\"的选择"
             },
             "1.6.3": {
                 "en": "fix behaviour of log interval to always log the current value",
                 "de": "Verhalten vom Logging in bestimmten Zeitabständen geändert, sodass immer der aktuellste Wert geloggt wird",
-                "ru": "fix behaviour of log interval to always log the current value"
+                "ru": "fix behaviour of log interval to always log the current value",
+                "pt": "correcção do comportamento do intervalo de registo para registar sempre o valor atual",
+                "nl": "fix gedrag van de log-interval te log altijd de huidige waarde",
+                "fr": "correction du comportement de l'intervalle de log pour toujours vous connecter à la valeur actuelle",
+                "it": "correggere il comportamento del registro di intervallo per sempre il valore corrente del registro",
+                "es": "corregir el comportamiento de intervalo de registro para registrar siempre el valor actual",
+                "pl": "naprawić zachowanie dziennika interwał zawsze wejść bieżącej kosztów",
+                "zh-cn": "解决行为的日志的间隔时间总是记录目前的价值"
             },
             "1.6.2": {
                 "en": "fix in datatype conversions",
                 "de": "Fehlerbehebung in Datentypkonvertierungen",
-                "ru": "fix in datatype conversions"
+                "ru": "fix in datatype conversions",
+                "pt": "correção em conversões de tipo de dados",
+                "nl": "fix in-gegevenstype conversies",
+                "fr": "fixer dans les conversions de type de données",
+                "it": "fix in datatype conversioni",
+                "es": "corrección en el tipo de datos de conversiones",
+                "pl": "naprawić błąd w konwersji danych ",
+                "zh-cn": "修复中的数据类型的转换"
             },
             "1.6.1": {
                 "en": "Changed Debounce-Feature to log the last stable value that did not changed for given time!! Replace some characters in history filenames",
                 "de": "Debounce-Feature geändert, sodass der letzte Wert der in der angegeben Zeit stabil geblieben ist geloggt wird!! Ersetzung einiger Zeichen in Dateinamen",
-                "ru": "Changed Debounce-Feature to log the last stable value that did not changed for given time!! Replace some characters in history filenames"
+                "ru": "Changed Debounce-Feature to log the last stable value that did not changed for given time!! Replace some characters in history filenames",
+                "pt": "Mudou de Debounce-Recurso de log do último valor estável que não mudou para um dado tempo!! Substituir alguns caracteres em nomes de arquivo histórico",
+                "nl": "Gewijzigd Ontdendering-Functie log de laatste stabiele waarde niet gewijzigd voor bepaalde tijd!! Vervangen van sommige tekens in bestandsnamen geschiedenis",
+                "fr": "Changé anti-rebond-Fonction de journal la dernière valeur stable qui n'a pas changé pour le moment donné!! Remplacer certains caractères dans l'histoire des noms de fichiers",
+                "it": "Cambiato Debounce-Funzione per registrare l'ultimo valore stabile che non ha cambiato per un dato tempo!!!! Sostituire alcuni personaggi nella storia i nomi di file",
+                "es": "Cambiado de Rebote-Función de registro de los últimos valor estable, que no cambia por el tiempo!! Reemplazar a algunos de los personajes de la historia los nombres de archivo",
+                "pl": "Zmieniony дребезга funkcji dla wejścia na ostatnią stabilną wartość, która się nie zmieniło w tej chwili czasu!! Wymienić niektóre znaki w nazwach plików historii ",
+                "zh-cn": "改变抖-功能来记录的最后一个稳定的价值并没有改变对于给定的时间！ 替换某些人物的历史的文件名"
             },
             "1.5.3": {
                 "en": "Small fix for older configurations",
                 "de": "Kleine Fehlerbehebung für ältere Konfigurationen",
-                "ru": "Small fix for older configurations"
+                "ru": "Small fix for older configurations",
+                "pt": "Pequena correcção mais velhas configurações",
+                "nl": "Kleine correctie voor oudere configuraties",
+                "fr": "Petit correctif pour les anciennes configurations",
+                "it": "Piccolo fix per le vecchie configurazioni",
+                "es": "Pequeña corrección para configuraciones antiguas",
+                "pl": "Mała poprawka dla starszych konfiguracjach",
+                "zh-cn": "小的修复旧的配置"
             },
             "1.5.2": {
                 "en": "Enhance Min-Delta logic for datapoints from type mixed",
                 "de": "Min-Delta-Logik verbessert für Mixed-Datenpunkte",
-                "ru": "Enhance Min-Delta logic for datapoints from type mixed"
+                "ru": "Enhance Min-Delta logic for datapoints from type mixed",
+                "pt": "Melhorar Min-Delta lógica para os pontos de dados do tipo misto",
+                "nl": "Verbeteren Min-Delta logica voor gegevens van het type gemengd",
+                "fr": "Améliorer Min-Delta logic pour les points de données de type mixte",
+                "it": "Migliorare Min-Delta logica per datapoint dal tipo misto",
+                "es": "Mejorar Min-Delta lógica de puntos de datos de tipo mixto",
+                "pl": "Zwiększyć min-Delta logiki dla punktów danych od ich typ mieszany",
+                "zh-cn": "提高分-Δ逻辑数据点，用于从混合类型"
             },
             "1.5.1": {
                 "en": "Fix handling of float values in Adapter config and Datapoint config.",
                 "de": "Fehlerbehebung bei der Eingabe von Zahlen mit Kommastellen in der Adapter- und Datenpunk-Konfiguration.",
-                "ru": "Fix handling of float values in Adapter config and Datapoint config."
+                "ru": "Fix handling of float values in Adapter config and Datapoint config.",
+                "pt": "Correcção manipulação de valores de vírgula flutuante no Adaptador de configuração e Dados de configuração.",
+                "nl": "Fix behandeling van float waarden in Adapter config en Gegevenspunt config.",
+                "fr": "Correction de la gestion des valeurs flottantes dans l'Adaptateur de config et Datapoint config.",
+                "it": "Fix movimentazione di valori float Adattatore config e Datapoint config.",
+                "es": "Revisión de la manipulación de valores de coma flotante en el Adaptador de config y punto de datos de configuración.",
+                "pl": "Naprawiono błąd przetwarzania liczb zmiennoprzecinkowych w adapter config i punkty danych konfiguracji.",
+                "zh-cn": "修正处理的浮动价值观在适配器的配置和数据点配置。"
             },
             "1.5.0": {
                 "en": "Add messages enableHistory/disableHistory/getEnabledDPs, add support to log changes only if value differs a minimum value for numbers. Fixing aggregate calculation",
                 "de": "Messages enableHistory/disableHistory/getEnabledDPs hinzugefügt, Unterstützung zum Loggen wenn der Zahlenwert um einen Mindestwert abweicht. Fehler in Aggregationsberechnung behoben",
-                "ru": "Add messages enableHistory/disableHistory/getEnabledDPs, add support to log changes only if value differs a minimum value for numbers. Fixing aggregate calculation"
+                "ru": "Add messages enableHistory/disableHistory/getEnabledDPs, add support to log changes only if value differs a minimum value for numbers. Fixing aggregate calculation",
+                "pt": "Adicione mensagens enableHistory/disableHistory/getEnabledDPs, adicionar suporte para registar as alterações apenas se o valor varia de um valor mínimo para os números. Fixação de cálculo de agregação",
+                "nl": "Berichten toe te voegen deenablehistoryde/disableHistory/getEnabledDPs, ondersteuning toevoegen inloggen verandert alleen als de waarde verschilt van een minimale waarde voor de nummers. De vaststelling van geaggregeerde berekening",
+                "fr": "Ajouter des messages enableHistory/disableHistory/getEnabledDPs, ajouter la prise en charge de journal des modifications que si la valeur diffère de la valeur minimale pour les nombres. La fixation de calcul d'agrégat",
+                "it": "Aggiungere i messaggi enableHistory/disableHistory/getEnabledDPs, aggiungere il supporto per registrare le modifiche solo se il valore differisce un valore minimo per i numeri. Fissaggio calcolo di aggregazione",
+                "es": "Agregar mensajes enableHistory/disableHistory/getEnabledDPs, añadir soporte para registrar los cambios sólo si el valor es diferente de un valor mínimo para los números. La fijación de cálculo agregado",
+                "pl": "Dodawać wiadomości enableHistory/disableHistory/getEnabledDPs, dodać wsparcie dla zmiany dziennika, tylko jeśli wartość jest inna wartość minimalna dla liczb. Blokada statystyczne obliczenia",
+                "zh-cn": "添加信息enableHistory/disableHistory/getEnabledDPs，加支持日志的变化，如果只值不同于最低值的数字。 固定的聚合计算"
             }
         },
-        "mode":                     "daemon",
-        "platform":                 "Javascript/Node.js",
-        "loglevel":                 "info",
-        "messagebox":               true,
-        "subscribe":                "messagebox",
-        "keywords":                 ["charts", "history", "logging", "graphs", "Graphen", "data", "archive"],
-        "main":                     "main.js",
-        "enabled":                  true,
-        "compact":                  true,
-        "preserveSettings":         "custom",
+        "mode": "daemon",
+        "platform": "Javascript/Node.js",
+        "loglevel": "info",
+        "messagebox": true,
+        "subscribe": "messagebox",
+        "keywords": [
+            "charts",
+            "history",
+            "logging",
+            "graphs",
+            "Graphen",
+            "data",
+            "archive"
+        ],
+        "main": "main.js",
+        "enabled": true,
+        "compact": true,
+        "preserveSettings": "custom",
         "authors": [
             "bluefox <dogafox@gmail.com>",
             "hobbyquaker <hq@ccu.io>",
             "Apollon77 <ingo@fischer-ka.de>"
         ],
-        "license":                  "MIT",
-        "readme":                   "https://github.com/ioBroker/ioBroker.history/blob/master/README.md",
-        "icon":                     "history.png",
-        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.history/master/admin/history.png",
-		"type":                     "storage",
-        "supportCustoms":           true,
-        "materialize":              true,
-        "getHistory":           	true,
-		"dependencies":             [{"js-controller": ">=0.12.0","admin": ">=1.6.10"}],
-        "supportStopInstance":      2000,
-        "stopTimeout":              10000
+        "license": "MIT",
+        "readme": "https://github.com/ioBroker/ioBroker.history/blob/master/README.md",
+        "icon": "history.png",
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.history/master/admin/history.png",
+        "type": "storage",
+        "supportCustoms": true,
+        "materialize": true,
+        "getHistory": true,
+        "dependencies": [
+            {
+                "js-controller": ">=0.12.0",
+                "admin": ">=1.6.10"
+            }
+        ],
+        "supportStopInstance": 2000,
+        "stopTimeout": 10000
     },
     "native": {
         "maxLength": 960,
-        "limit":     2000,
-        "storeDir":  "",
-        "debounce":  1000,
+        "limit": 2000,
+        "storeDir": "",
+        "debounce": 1000,
         "retention": 31536000,
         "storeFrom": false,
-        "storeAck":  true,
-        "changesRelogInterval":      0,
+        "storeAck": true,
+        "changesRelogInterval": 0,
         "changesMinDelta": 0,
         "writeNulls": true
     },
